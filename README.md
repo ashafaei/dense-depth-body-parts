@@ -24,7 +24,10 @@ Commonly used human motion capture systems require intrusive attachment of marke
 
 ![alt text](http://www.cs.ubc.ca/~shafaei/homepage/projects/papers/crv_16/crv16_cnn.png "Our architecture")
 
+Given a 250x250 depth image, this network densely classifies the pixels into the body regions of interest. `classification_demo.m` shows how the input must be pre-processed before passing it to the network.
+
 This network is originally trained on [Caffe](https://github.com/BVLC/caffe/) but it is transfered to [MatConvnet](https://github.com/vlfeat/matconvnet) for convenience of use. It only takes 3~6 ms to classify a depth image with this architecture.
 
 run `classification_demo.m` to run the network on the provided sample image
 ![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/sample.png "sample depth image")
+![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/sample_gt.png "sample depth image")
