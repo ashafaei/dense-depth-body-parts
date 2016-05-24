@@ -4,3 +4,6 @@
 [submodule "ubc3v"]
 	path = ubc3vtoolkit
 	url = https://github.com/ashafaei/ubc3v
+[submodule "ubc3vtoolkit"]
+	path = ubc3vtoolkit
+	url = https://github.com/ashafaei/ubc3v
