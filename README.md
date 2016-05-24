@@ -26,5 +26,5 @@ Commonly used human motion capture systems require intrusive attachment of marke
 
 This network is originally trained on [Caffe](https://github.com/BVLC/caffe/) but it is transfered to [MatConvnet](https://github.com/vlfeat/matconvnet) for convenience of use. It only takes 3~6 ms to classify a depth image with this architecture.
 
-run `classification_demo` to run the network on the provided sample image
+run `classification_demo.m` to run the network on the provided sample image
 ![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/sample.png "sample depth image")
