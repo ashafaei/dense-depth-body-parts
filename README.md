@@ -32,8 +32,8 @@ run `classification_demo.m` to run the network on the provided sample image.
 ![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/sample_gt.png "sample depth image")
 
 ### Class Reference
-[!alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/calss_ref.png "Class Reference")
+![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/calss_ref.png "Class Reference")
 
 ### Performance
 Confusion Matrix of the network trained on Hard-Pose.
-[!alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/ubc3v_confmat.png "Confusion Matrix")
+![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/ubc3v_confmat.png "Confusion Matrix")
