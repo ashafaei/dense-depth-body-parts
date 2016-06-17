@@ -32,6 +32,7 @@ run `classification_demo.m` to run the network on the provided sample image.
 ![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/sample_gt.png "sample depth image")
 
 ### Class Reference
+The network has extra channels 17, and 18 (base 1) that are not used. Ignoring 17, and 18, the remainder is as follows.
 ![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/calss_ref.png "Class Reference")
 
 ### Performance
