@@ -28,6 +28,12 @@ Given a 250x250 depth image, this network densely classifies the pixels into the
 
 This network is originally trained on [Caffe](https://github.com/BVLC/caffe/) but it is transfered to [MatConvnet](https://github.com/vlfeat/matconvnet) for convenience of use. It only takes 3~6 ms to classify a depth image with this architecture.
 
-run `classification_demo.m` to run the network on the provided sample image
-![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/sample.png "sample depth image")
+run `classification_demo.m` to run the network on the provided sample image.
 ![alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/sample_gt.png "sample depth image")
+
+### Class Reference
+[!alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/calss_ref.png "Class Reference")
+
+### Performance
+Confusion Matrix of the network trained on Hard-Pose.
+[!alt text](https://github.com/ashafaei/dense-depth-body-parts/raw/master/ubc3v_confmat.png "Confusion Matrix")
