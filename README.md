@@ -17,6 +17,8 @@ If you've used these models in your research, please consider citing the paper:
 ```
 If you have any questions, you can reach me at [shafaei.ca](http://shafaei.ca).
 
+* __Python Version__: a python port of this project is available at [surajpaib/dense-depth-body-parts](https://github.com/surajpaib/dense-depth-body-parts), kudos to @surajpaib.
+
 ## Abstract
 Commonly used human motion capture systems require intrusive attachment of markers that are visually tracked with multiple cameras. In this work we present an efficient and inexpensive solution to markerless motion capture using only a few Kinect sensors. Unlike the previous work on 3d pose estimation using a single depth camera, we relax constraints on the camera location and do not assume a co-operative user. We apply recent image segmentation techniques to depth images and use curriculum learning to train our system on purely synthetic data. Our method accurately localizes body parts without requiring an explicit shape model. The body joint locations are then recovered by combining evidence from multiple views in real-time. We also introduce a dataset of ~6 million synthetic depth frames for pose estimation from multiple cameras and exceed state-of-the-art results on the Berkeley MHAD dataset.
 
